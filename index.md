@@ -32,6 +32,9 @@ GNU Compiler Collection(GCC)
 
 Collaborating with a Google Summer of Code(GSoC) candidate
 
-## Blog Page
+## Talks, writings and publications and other fun stuff
 
-## Talks, writings and publications and other stuff
+- [Talks](/talks.md)
+- Check out my [Blogs](/blog.md)
+- [miscellaneous](/miscellaneous.md) stuff
+- Some [Fun stuff](/fun_stuff.md) with life 

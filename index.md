@@ -1,125 +1,171 @@
 ---
-layout: default
+
+## Sameeran Joshi
+___
+---
+***
+---
+<img align="right" width="200" height="200" src="https://octodex.github.com/images/stormtroopocat.jpg">
+
+Sameeran Joshi, PhD Student UofU
+
+joshisameeran at gmail dot com
+
+joshisameeran at gmail dot com
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+<br>
+
+___
+
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+***
 
-[Link to another page](./another-page.html).
+### Research Interest
+### Blog Page
+### Work Experience
+### Talks, writings and publications and other stuff
 
-There should be whitespace between paragraphs.
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## Typographic replacements
 
-# Header 1
+"Smartypants, double quotes" and 'single quotes'
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Emphasis
 
-## Header 2
+**This is bold text**
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+*This is italic text*
 
-### Header 3
+~~Strikethrough~~
+
+## Blockquotes
+
+> Blockquotes can also be nested...
+>> ...by using additional greater-than signs right next to each other...
+> > > ...or with spaces between arrows.
+
+
+## Lists
+
+Unordered
+
++ Create a list by starting a line with `+`, `-`, or `*`
++ Sub-lists are made by indenting 2 spaces:
+  - Marker character change forces new list start:
+    * Ac tristique libero volutpat at
+    + Facilisis in pretium nisl aliquet
+    - Nulla volutpat aliquam velit
++ Very easy!
+
+Ordered
+
+1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+
+
+## Code
+
+Inline `code`
+
+Indented code
+
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+
+
+Block code "fences"
 
 ```
-js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-    return true;
-    }
-    ```
-
-    ```ruby
-    # Ruby code with syntax highlighting
-    GitHubPages::Dependencies.gems.each do |gem, version|
-      s.add_dependency(gem, "= #{version}")
-      end
-      ```
-
-      #### Header 4
-
-      *   This is an unordered list following a header.
-      *   This is an unordered list following a header.
-      *   This is an unordered list following a header.
-
-      ##### Header 5
-
-      1.  This is an ordered list following a header.
-      2.  This is an ordered list following a header.
-      3.  This is an ordered list following a header.
-
-      ###### Header 6
-
-      | head1        | head two          | three |
-      |:-------------|:------------------|:------|
-      | ok           | good swedish fish | nice  |
-      | out of stock | good and plenty   | nice  |
-      | ok           | good `oreos`      | hmm   |
-      | ok           | good `zoute` drop | yumm  |
-
-      ### There's a horizontal rule below this.
-
-      * * *
-
-      ### Here is an unordered list:
-
-      *   Item foo
-      *   Item bar
-      *   Item baz
-      *   Item zip
-
-      ### And an ordered list:
-
-      1.  Item one
-      1.  Item two
-      1.  Item three
-      1.  Item four
-
-      ### And a nested list:
-
-      - level 1 item
-        - level 2 item
-	  - level 2 item
-	      - level 3 item
-	          - level 3 item
-		  - level 1 item
-		    - level 2 item
-		      - level 2 item
-		        - level 2 item
-			- level 1 item
-			  - level 2 item
-			    - level 2 item
-			    - level 1 item
-
-			    ### Small image
-
-			    ![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-			    ### Large image
-
-			    ![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-			    ### Definition lists can be used with HTML syntax.
-
-			    <dl>
-			    <dt>Name</dt>
-			    <dd>Godzilla</dd>
-			    <dt>Born</dt>
-			    <dd>1952</dd>
-			    <dt>Birthplace</dt>
-			    <dd>Japan</dd>
-			    <dt>Color</dt>
-			    <dd>Green</dd>
-			    </dl>
-
-			    ```
-			    Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-			    ```
-
-			    ```
-			    The final element.
-			    ```
+Sample text here...
 ```
+
+Syntax highlighting
+
+``` js
+var foo = function (bar) {
+  return bar++;
+};
+
+console.log(foo(5));
+```
+
+## Tables
+
+| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+Right aligned columns
+
+| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+
+
+## Links
+
+[link text](http://dev.nodeca.com)
+
+## Plugins
+### [Footnotes](https://github.com/markdown-it/markdown-it-footnote)
+
+Footnote 1 link[^first].
+
+Footnote 2 link[^second].
+
+Inline footnote^[Text of inline footnote] definition.
+
+Duplicated footnote reference[^second].
+
+[^first]: Footnote **can have markup**
+
+    and multiple paragraphs.
+
+[^second]: Footnote text.
+
+
+### [Definition lists](https://github.com/markdown-it/markdown-it-deflist)
+
+Term 1
+
+:   Definition 1
+with lazy continuation.
+
+Term 2 with *inline markup*
+
+:   Definition 2
+
+        { some code, part of Definition 2 }
+
+    Third paragraph of definition 2.
+
+_Compact style:_
+
+Term 1
+  ~ Definition 1
+
+Term 2
+  ~ Definition 2a
+  ~ Definition 2b

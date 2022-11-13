@@ -36,5 +36,5 @@ Collaborating with a Google Summer of Code(GSoC) candidate
 
 - [Talks](/talks.md)
 - Check out my [Blogs](/blog.md)
-- [miscellaneous](/miscellaneous.md) stuff
+- [Miscellaneous](/miscellaneous.md) stuff
 - Some [Fun stuff](/fun_stuff.md) with life 

@@ -3,6 +3,10 @@
 
 ---
 ![This is profile pic](/joshi%2001.jpg)
+![This is profile pic](/joshi%2001.jpg)
+![This is profile pic](/joshi%2001.jpg)
+![This is profile pic](/joshi%2001.jpg)
+![This is profile pic](/joshi%2001.jpg)
 
 ## **Whoami --help**
 
@@ -20,18 +24,21 @@ For more information please connect:
 I am interested in working at the intersection of Programming Languages and Computer Architecture, where I can design new abstractions and compilation techniques for existing and emerging architectures. In general, my research interests are in Programming Languages, Compilers and High Performance Computing(HPC).
 
 **Current working project:**
-- Working on the (Transform Dialect)[https://mlir.llvm.org/docs/Dialects/Transform/] in (MLIR)[https://mlir.llvm.org/].
+- Working on the [Transform Dialect](https://mlir.llvm.org/docs/Dialects/Transform/) in [MLIR](https://mlir.llvm.org/).
 
 ## Work Experience
 
 **Compiler Engineer (July 2019 - May 2022)**
+
 **AMD CPU Compiler Team, India**
 
-I worked on various roles at AMD, I was working initially as a software verification engineer fuzzing the LLVM Compiler. Found various critical bugs, mis compilation errors in AOCC Compiler. I worked later in the LLVM Flang project adding support for various F2008 features of the Fortran Language and OpenMP realted features support in LLVM Flang upstream Compiler. I was also working with the Flang driver realted stuff with amazing open source developers. This work made me more involved into the LLVM project. I worked building an internal tool based on LLVM Bolt for AOCC Compiler for analyzing performance of their HPC workloads and finding missing optimizations.
+I worked on various roles at AMD, I was working initially as a software verification engineer fuzzing the LLVM Compiler. Found various critical bugs, mis compilation errors in [AOCC Compiler](https://developer.amd.com/amd-aocc/). I worked later in the LLVM Flang project adding support for various F2008 features of the Fortran Language and OpenMP realted features in LLVM Flang upstream compiler. I was also working with the Flang driver realted stuff with amazing open source developers. This work made me more involved into the LLVM project. I worked building an internal tool based on [LLVM Bolt](https://research.facebook.com/publications/bolt-a-practical-binary-optimizer-for-data-centers-and-beyond/) for AOCC Compiler for analyzing performance of their HPC workloads and finding missing optimizations.
 
 
 **Internship experience (Sept 2018 - April 2019)**
+
 **Mentor: **[Andi Kleen](https://www.halobates.de/), Intel**, Long time linux kernel contributor**
+
 **GNU Compiler Collection(GCC)**
 
 I collaborated with a Google Summer of Code(GSoC) candidate in working for the GCC Compiler infrastructure for finding bugs in GCC compiler.

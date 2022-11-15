@@ -2,11 +2,9 @@
 #### **PhD Student @U of Utah**
 
 ---
-![This is profile pic](/joshi%2001.jpg)
-![This is profile pic](/joshi%2001.jpg)
-![This is profile pic](/joshi%2001.jpg)
-![This is profile pic](/joshi%2001.jpg)
-![This is profile pic](/joshi%2001.jpg)
+
+![This is profile pic](/joshi01_30_30.jpg)
+![This is profile pic](/joshi%2001_40_40.jpg)
 
 ## **Whoami --help**
 

@@ -34,7 +34,7 @@ I worked on various roles at AMD, I was working initially as a software verifica
 
 ### **Internship experience (Sept 2018 - April 2019)**
 
- **Mentor: **[Andi Kleen](https://www.halobates.de/), Intel**, Long time linux kernel contributor**
+ **Mentor: [Andi Kleen](https://www.halobates.de/), Intel, Long time linux kernel contributor**
 
  **GNU Compiler Collection(GCC)**
 

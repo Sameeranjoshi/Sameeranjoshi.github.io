@@ -1,5 +1,6 @@
 ## **Sameeran Joshi**
 #### **PhD Student @U of Utah**
+[Quote of the day](https://ates.ch/quoty/)
 
 ---
 

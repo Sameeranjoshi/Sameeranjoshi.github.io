@@ -19,7 +19,7 @@ For more information please connect:
 
 ## **Research Interest.**
 
-I am interested in working at the intersection of Programming Languages and Computer Architecture, where I can design new abstractions and compilation techniques for existing and emerging architectures. In general, my research interests are in Programming Languages, Compilers and High Performance Computing(HPC).
+I am interested in working at the intersection of Programming Languages and Computer Architecture, where I can design new abstractions and compilation techniques for existing and emerging architectures. In general, my research interests are in Programming Languages, Compilers and High Performance Computing(HPC). I revolve around Libraries, Languages, and Compilers.
 
 **Current working project:**
 - Working on the [Transform Dialect](https://mlir.llvm.org/docs/Dialects/Transform/) in [MLIR](https://mlir.llvm.org/).

@@ -17,9 +17,22 @@ For more information please connect:
 4. Email me at **joshisameeran17_at_gmail_dot_com**
 5. Check out my [resume](/sameeran_joshi_plain_text.pdf)
 
-## **Research Interest.**
+## **Research Interest**
 
 I am interested in working at the intersection of Programming Languages and Computer Architecture, where I can design new abstractions and compilation techniques for existing and emerging architectures. In general, my research interests are in Programming Languages, Compilers and High Performance Computing(HPC). I revolve around Libraries, Languages, and Compilers.
+
+## **Publications**
+
+- PEAK: Generating High-Performance Schedules in MLIR, Amir Mohammad Tavakkoli∗,
+Sameeran Joshi∗, Shreya Singh, Yufan Xu, P. Sadayappan, and Mary Hall. In Proceedings of the
+36th International Workshop on Languages and Compilers for Parallel Computing(LCPC23). Oct.
+2023(Accepted)
+- An NSF REU Site Based on Trust and Reproducibility of Intelligent Computation: Experience
+Report, Mary Hall, Ganesh Gopalakrishnan, Eric Eide, Johanna Cohoon, Jeff M. Phillips, Mu Zhang,
+Shireen Y. Elhabian, Aditya Bhaskara, Harvey Dam, Artem Yadrov, Tushar Kataria, Amir
+Mohammad Tavakkoli, Sameeran Joshi, Mokshagna Sai Teja Karanam. In EduHPC workshop at
+The International Conference for High Performance Computing, Networking, Storage, and Analysis
+(SC23) (Accepted)
 
 **Current working project:**
 - Working on the [Transform Dialect](https://mlir.llvm.org/docs/Dialects/Transform/) in [MLIR](https://mlir.llvm.org/).

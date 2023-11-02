@@ -1,21 +1,24 @@
-# Some Fun Stuff 
----
+# Some Fun Stuff
+<link rel="stylesheet" type="text/css" href="style.css">
 
-**Look whom I met, yes [Chris Lattner](https://nondot.org/~sabre/)!**
-![chris_sameeran](/chris_sameeran.jpg)
+<div class="image-grid">
+  <div class="image-item">
+    <p>**Look whom I met, yes [Chris Lattner](https://nondot.org/~sabre/)!**</p>
+    <img src="/chris_sameeran.jpg" alt="chris_sameeran">
+  </div>
 
----
+  <div class="image-item">
+    <p>**I swam for a few years in the past.**</p>
+    <img src="/swim2.jpg" alt="swim">
+  </div>
 
-**I swimmed for a few years in the past.**
-![swim](/swim2.jpg)
+  <div class="image-item">
+    <p>**Did rappelling from this mountain, was scary!**</p>
+    <img src="/zipline.jfif" alt="repell">
+  </div>
 
----
-
-**Did repelling from this mountain, was scary!**
-![repell](/zipline.jfif)
-
----
-**Along with mountain climbing**
-![climb](/mountain_climb.jfif)
-
----
+  <div class="image-item">
+    <p>**Along with mountain climbing**</p>
+    <img src="/mountain_climb.jfif" alt="climb">
+  </div>
+</div>

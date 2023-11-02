@@ -1,5 +1,5 @@
 # Some Fun Stuff
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="something.css">
 
 <div class="image-grid">
   <div class="image-item">

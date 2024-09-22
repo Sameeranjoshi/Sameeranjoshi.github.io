@@ -7,7 +7,7 @@
 
 ## **Whoami --help**
 
-Sameeran Joshi is a second-year PhD student at the [Kahlert School of Computing](https://www.cs.utah.edu/). He works as a Graduate Research Assistant with [Dr. Mary Hall](https://www.cs.utah.edu/~mhall/) in the [CTOP group](http://ctop.cs.utah.edu/ctop/) at the University of Utah in Salt Lake City, Utah, USA.
+Sameeran Joshi is a second-year PhD student at the [Kahlert School of Computing](https://www.cs.utah.edu/). 
 
 For more information, please connect:
 1. [@sameeran_joshi](https://twitter.com/sameeran_joshi) Twitter handle

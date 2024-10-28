@@ -47,7 +47,7 @@ He worked in various roles at AMD. Initially, he was working as a software verif
 
  **GNU Compiler Collection(GCC)**
  
-He collaborated with a Google Summer of Code(GSoC) candidate on the GCC Compiler infrastructure to find bugs in the GCC compiler, extending the Time award research project Csmith for GCC C99 Language extensions. It was a fun experience getting into the compiler world by fuzzing the compiler. He was guided by open source compiler mentors [Siddhesh Poyarekar](https://siddhesh.in/pages/about-me.html), [Prathamesh Kulkarni](), [Andi Kleen](https://www.halobates.de/). 
+He collaborated with a Google Summer of Code(GSoC) candidate on the GCC Compiler infrastructure to find bugs in the GCC compiler, extending the Time award research project Csmith for GCC C99 Language extensions. It was a fun experience getting into the compiler world by fuzzing the compiler.
 
 ___
 ## **Talks, blogs, miscellaneous and other fun stuff**

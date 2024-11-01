@@ -21,10 +21,10 @@ For more information, please connect:
 
 Sameeran Joshi is interested in working at the intersection of Programming Languages and Computer Architecture, where he can design new abstractions and compilation techniques for existing and emerging architectures. Specifically, his research interests include programming languages, compilers, and high-performance computing (HPC). He revolves around Libraries, Languages, and Compilers.
 
-## **Publications**
-
-- **PEAK: Generating High-Performance Schedules in MLIR**, Amir Mohammad Tavakkoli∗, Sameeran Joshi∗, Shreya Singh, Yufan Xu, P. Sadayappan, and Mary Hall. In Proceedings of the 36th International Workshop on Languages and Compilers for Parallel Computing(**LCPC23**). Oct. 2023(Accepted)
-- **An NSF REU Site Based on Trust and Reproducibility of Intelligent Computation: Experience Report**, Mary Hall, Ganesh Gopalakrishnan, Eric Eide, Johanna Cohoon, Jeff M. Phillips, Mu Zhang, Shireen Y. Elhabian, Aditya Bhaskara, Harvey Dam, Artem Yadrov, Tushar Kataria, Amir Mohammad Tavakkoli, Sameeran Joshi, Mokshagna Sai Teja Karanam. In **EduHPC workshop** at The International Conference for High-Performance Computing, Networking, Storage, and Analysis(**SC23**) (Accepted)
+## **[Publications](https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=QQ-2bMYAAAAJ)**
+- **[Scheduling Languages: A Past, Present, and Future Taxonomy](https://arxiv.org/abs/2410.19927)**, M Hall, C Oancea, AC Elster, A Rasch, S Joshi, AM Tavakkoli, R Schulze. Under submission
+- **[PEAK: Generating High-Performance Schedules in MLIR](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QQ-2bMYAAAAJ&citation_for_view=QQ-2bMYAAAAJ:UeHWp8X0CEIC)**, Amir Mohammad Tavakkoli∗, Sameeran Joshi∗, Shreya Singh, Yufan Xu, P. Sadayappan, and Mary Hall. In Proceedings of the 36th International Workshop on Languages and Compilers for Parallel Computing(**LCPC23**). Oct. 2023(Accepted)
+- **[An NSF REU Site Based on Trust and Reproducibility of Intelligent Computation: Experience Report](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QQ-2bMYAAAAJ&citation_for_view=QQ-2bMYAAAAJ:qjMakFHDy7sC)**, Mary Hall, Ganesh Gopalakrishnan, Eric Eide, Johanna Cohoon, Jeff M. Phillips, Mu Zhang, Shireen Y. Elhabian, Aditya Bhaskara, Harvey Dam, Artem Yadrov, Tushar Kataria, Amir Mohammad Tavakkoli, Sameeran Joshi, Mokshagna Sai Teja Karanam. In **EduHPC workshop** at The International Conference for High-Performance Computing, Networking, Storage, and Analysis(**SC23**) (Accepted)
 
 
 ## **Work Experience**

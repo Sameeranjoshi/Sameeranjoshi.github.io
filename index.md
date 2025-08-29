@@ -31,6 +31,10 @@ Sameeran Joshi is interested in working at the intersection of Programming Langu
 
 **Research Aide Technical (June 2024 - August 2024)**
 
+**AMD NPU Compiler Intern, Campbell, CA**
+During intern he worked on AMD AIE accelerator and IREE/MLIR compiler stack. Supported vectorized truncation,reduction kernels used in deep learning. Achieved on par speedups and faster speedups for different multidimensional matrix shapes.
+
+
 **Argonne National Lab, Chicago**
 He worked as a Research Aide Technical at Argonne National Laboratory as an intern over Summer'24. During his internship, he explored challenges to support the HPC/Scientific software stack on AI accelerators like Cerebras, Sambanova, Groq, GraphCore, etc... using the AI testbed at Argonne. Specific focus on compilers, programming languages, and related software stack. I specifically worked on adding a [backend](https://github.com/Sameeranjoshi/dace/commits/graphcore/) support for GraphCore based Poplar codegen into [DaCe](https://spcl.inf.ethz.ch/Research/DAPP/) a Data-Centric Framework which helps create arbitrary dataflow graphs. 
 
@@ -55,4 +59,3 @@ ___
 - [Talks](/talks.md)
 - Check out his [Blogs](/blog.md)
 - [Miscellaneous](/miscellaneous.md) stuff
-- Some [Fun stuff](/fun_stuff.md) with life 

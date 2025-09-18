@@ -7,7 +7,7 @@
 
 ## **Whoami --help**
 
-Sameeran Joshi is a second-year PhD student at the [Kahlert School of Computing](https://www.cs.utah.edu/). 
+Sameeran Joshi is a fourth-year PhD student at the [Kahlert School of Computing](https://www.cs.utah.edu/). 
 
 For more information, please connect:
 1. [@sameeran_joshi](https://twitter.com/sameeran_joshi) Twitter handle

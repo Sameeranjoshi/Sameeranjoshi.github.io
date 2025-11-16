@@ -14,8 +14,8 @@ For more information, please connect:
 2. On [Linkedin](https://www.linkedin.com/in/sameeran-joshi-b8b1b9144)
 3. [github](https://github.com/Sameeranjoshi) profile 
 4. Email **joshisameeran17_at_gmail_dot_com**
-5. Check out [resume](/sameeran_joshi_plain_text.pdf)
-6. ORCiD ID - https://orcid.org/0009-0003-0345-4235
+5. Check out [resume](/sameeran_joshi_plain_text_pdf.pdf)
+7. ORCiD ID - https://orcid.org/0009-0003-0345-4235
 
 ## **Research Interest**
 

@@ -1,136 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sameeran Joshi — PhD Student @ U of Utah</title>
-<meta name="description" content="Sameeran Joshi — PhD student at the Kahlert School of Computing, University of Utah. Research in programming languages, compilers, and high-performance computing.">
-<link rel="stylesheet" href="/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sameeran Joshi</title>
+  <meta name="description" content="Sameeran Joshi is a PhD student at the University of Utah researching programming languages, compilers, and high-performance computing.">
+  <script>
+    (function () {
+      var savedTheme = null;
+      var prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      try {
+        savedTheme = localStorage.getItem("theme");
+      } catch (error) {
+        savedTheme = null;
+      }
+      var theme = savedTheme || (prefersDark ? "dark" : "light");
+      document.documentElement.dataset.theme = theme;
+      document.documentElement.style.colorScheme = theme;
+    }());
+  </script>
+  <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body class="home">
+  <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Switch to dark theme">
+    <img class="sun-icon" src="/icons/sun.svg" alt="">
+    <img class="moon-icon" src="/icons/moon.svg" alt="">
+  </button>
 
-<header class="site-header">
-  <nav class="nav">
-    <a href="/" class="nav-brand">Sameeran Joshi</a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#experience">Experience</a></li>
-    </ul>
-  </nav>
-</header>
-
-<main>
-  <section class="hero">
-    <div class="container hero-inner">
-      <div>
-        <span class="eyebrow">PhD Student</span>
-        <h1>Sameeran Joshi</h1>
-        <p class="subtitle">Compilers, programming languages, and high-performance computing at the Kahlert School of Computing, University of Utah.</p>
-        <div class="btn-row">
-          <a class="btn btn-primary" href="/sameeran_joshi_plain_text_pdf.pdf">View Resume</a>
-          <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=QQ-2bMYAAAAJ">Google Scholar</a>
-          <a class="btn btn-ghost" href="https://github.com/Sameeranjoshi">GitHub</a>
-        </div>
-      </div>
-      <img class="hero-avatar" src="/joshi01_30_30.jpg" alt="Sameeran Joshi">
+  <aside class="profile" aria-label="Portrait and profile links">
+    <div class="profile-photo">
+      <img src="/joshi01_30_30.jpg" alt="Portrait of Sameeran Joshi">
     </div>
-  </section>
 
-  <section id="about" class="block">
-    <div class="container">
-      <p class="section-label">Whoami --help</p>
-      <h2 class="section-heading">About</h2>
-      <p class="lead">Sameeran Joshi is a fourth-year PhD student at the <a href="https://www.cs.utah.edu/">Kahlert School of Computing</a>, University of Utah.</p>
-      <ul class="contact-list">
-        <li><a href="https://twitter.com/sameeran_joshi">Twitter — @sameeran_joshi</a></li>
-        <li><a href="https://www.linkedin.com/in/sameeran-joshi-b8b1b9144">LinkedIn</a></li>
-        <li><a href="https://github.com/Sameeranjoshi">GitHub</a></li>
-        <li>Email — joshisameeran17_at_gmail_dot_com</li>
-        <li><a href="/sameeran_joshi_plain_text_pdf.pdf">Resume (PDF)</a></li>
-        <li><a href="https://orcid.org/0009-0003-0345-4235">ORCiD 0009-0003-0345-4235</a></li>
-      </ul>
+    <nav class="social-links" aria-label="Contact and social profiles">
+      <a class="social-link" href="mailto:joshisameeran17@gmail.com" aria-label="Email" data-label="Email">
+        <img src="/icons/mail.svg" alt="">
+      </a>
+      <a class="social-link" href="/sameeran_joshi_plain_text_pdf.pdf" aria-label="Resume" data-label="Resume">
+        <img src="/icons/file-text.svg" alt="">
+      </a>
+      <a class="social-link" href="https://scholar.google.com/citations?user=QQ-2bMYAAAAJ" aria-label="Google Scholar" data-label="Scholar">
+        <img src="/icons/graduation-cap.svg" alt="">
+      </a>
+      <a class="social-link" href="https://github.com/Sameeranjoshi" aria-label="GitHub" data-label="GitHub">
+        <img src="/icons/github.svg" alt="">
+      </a>
+      <a class="social-link" href="https://www.linkedin.com/in/sameeran-joshi-b8b1b9144" aria-label="LinkedIn" data-label="LinkedIn">
+        <img src="/icons/linkedin.svg" alt="">
+      </a>
+      <a class="social-link" href="https://twitter.com/sameeran_joshi" aria-label="X / Twitter" data-label="X / Twitter">
+        <img src="/icons/x.svg" alt="">
+      </a>
+      <a class="social-link" href="https://orcid.org/0009-0003-0345-4235" aria-label="ORCID" data-label="ORCID">
+        <img src="/icons/orcid.svg" alt="">
+      </a>
+    </nav>
+  </aside>
+
+  <main class="main-column">
+    <div class="intro">
+      <p class="kicker">Hello, I am</p>
+      <h1>Sameeran Joshi.</h1>
+      <p class="intro-copy">I am a fourth-year PhD student at the <a href="https://www.cs.utah.edu/">Kahlert School of Computing</a>, University of Utah.</p>
+      <p>I work at the intersection of programming languages and computer architecture. My research explores new abstractions and compilation techniques for existing and emerging architectures, with a focus on compilers and high-performance computing.</p>
     </div>
-  </section>
+  </main>
 
-  <section id="research" class="block dark">
-    <div class="container">
-      <p class="section-label">Research Interest</p>
-      <h2 class="section-heading">Languages, compilers, and HPC.</h2>
-      <p class="lead">Working at the intersection of Programming Languages and Computer Architecture — designing new abstractions and compilation techniques for existing and emerging architectures. Interests span programming languages, compilers, and high-performance computing, revolving around libraries, languages, and compilers.</p>
-    </div>
-  </section>
+  <script>
+    (function () {
+      var button = document.querySelector(".theme-toggle");
 
-  <section id="publications" class="block">
-    <div class="container">
-      <p class="section-label">Publications</p>
-      <h2 class="section-heading">Selected work</h2>
-      <div class="pub">
-        <a class="pub-title" href="https://arxiv.org/abs/2410.19927">Scheduling Languages: A Past, Present, and Future Taxonomy</a>
-        <span class="pub-meta">M. Hall, C. Oancea, A.C. Elster, A. Rasch, S. Joshi, A.M. Tavakkoli, R. Schulze</span>
-        <span class="venue">Under submission</span>
-      </div>
-      <div class="pub">
-        <a class="pub-title" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QQ-2bMYAAAAJ&citation_for_view=QQ-2bMYAAAAJ:UeHWp8X0CEIC">PEAK: Generating High-Performance Schedules in MLIR</a>
-        <span class="pub-meta">A.M. Tavakkoli*, S. Joshi*, S. Singh, Y. Xu, P. Sadayappan, M. Hall</span>
-        <span class="venue">LCPC '23</span>
-      </div>
-      <div class="pub">
-        <a class="pub-title" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=QQ-2bMYAAAAJ&citation_for_view=QQ-2bMYAAAAJ:qjMakFHDy7sC">An NSF REU Site Based on Trust and Reproducibility of Intelligent Computation: Experience Report</a>
-        <span class="pub-meta">M. Hall et al.</span>
-        <span class="venue">EduHPC @ SC '23</span>
-      </div>
-    </div>
-  </section>
+      function setTheme(theme) {
+        var nextTheme = theme === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+        button.setAttribute("aria-label", "Switch to " + nextTheme + " theme");
+        button.setAttribute("title", "Switch to " + nextTheme + " theme");
+      }
 
-  <section id="experience" class="block">
-    <div class="container">
-      <p class="section-label">Work Experience</p>
-      <h2 class="section-heading">Where I've worked</h2>
-
-      <div class="exp-item card">
-        <span class="exp-org">AMD · Campbell, CA</span>
-        <h3 class="exp-role">NPU Compiler Intern</h3>
-        <p class="pub-meta" style="margin:0 0 8px;">June 2024 – August 2024</p>
-        <p>Worked on the AMD AIE accelerator and the IREE/MLIR compiler stack. Supported vectorized truncation and reduction kernels used in deep learning, achieving on-par and faster speedups across multidimensional matrix shapes.</p>
-      </div>
-
-      <div class="exp-item card">
-        <span class="exp-org">Argonne National Lab · Chicago</span>
-        <h3 class="exp-role">Research Aide, Technical</h3>
-        <p class="pub-meta" style="margin:0 0 8px;">Summer 2024</p>
-        <p>Explored challenges to support the HPC / scientific software stack on AI accelerators (Cerebras, SambaNova, Groq, GraphCore) via Argonne's AI testbed. Added a <a href="https://github.com/Sameeranjoshi/dace/commits/graphcore/">GraphCore Poplar codegen backend</a> to <a href="https://spcl.inf.ethz.ch/Research/DAPP/">DaCe</a>, a data-centric dataflow framework.</p>
-      </div>
-
-      <div class="exp-item card">
-        <span class="exp-org">AMD · India</span>
-        <h3 class="exp-role">Compiler Engineer, CPU Compiler Team</h3>
-        <p class="pub-meta" style="margin:0 0 8px;">July 2019 – May 2022</p>
-        <p>Software verification engineer fuzzing LLVM — found critical bugs and miscompilations in the <a href="https://developer.amd.com/amd-aocc/">AOCC compiler</a>. Later worked on LLVM Flang: F2008 Fortran features, OpenMP support, and the Flang driver. Built an internal <a href="https://research.facebook.com/publications/bolt-a-practical-binary-optimizer-for-data-centers-and-beyond/">LLVM-Bolt</a>–based tool to analyze AOCC HPC workloads and find missing optimizations.</p>
-      </div>
-
-      <div class="exp-item card">
-        <span class="exp-org">GCC · Mentor: Andi Kleen, Intel</span>
-        <h3 class="exp-role">GNU Compiler Collection — Internship</h3>
-        <p class="pub-meta" style="margin:0 0 8px;">September 2018 – April 2019</p>
-        <p>Collaborated with a Google Summer of Code candidate on the GCC infrastructure to find compiler bugs, extending the Time-Award research project Csmith for GCC C99 language extensions.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="block">
-    <div class="container">
-      <p class="section-label">More</p>
-      <h2 class="section-heading">More</h2>
-      <a class="card" href="/miscellaneous.html"><h3 class="feature-title">Miscellaneous →</h3><p>Scholarships, volunteering, and community.</p></a>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container">© Sameeran Joshi</div>
-</footer>
-
+      setTheme(document.documentElement.dataset.theme || "light");
+      button.addEventListener("click", function () {
+        var nextTheme = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        try {
+          localStorage.setItem("theme", nextTheme);
+        } catch (error) {
+          // The toggle still works when storage is unavailable.
+        }
+        setTheme(nextTheme);
+      });
+    }());
+  </script>
 </body>
 </html>

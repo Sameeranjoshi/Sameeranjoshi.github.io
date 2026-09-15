@@ -92,7 +92,7 @@ p {
 /* Home page */
 .home {
   display: grid;
-  grid-template-columns: minmax(300px, 27vw) minmax(0, 1fr);
+  grid-template-columns: minmax(340px, 29vw) minmax(0, 1fr);
   min-height: 100vh;
   min-height: 100svh;
   overflow-x: hidden;
@@ -106,7 +106,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 48px clamp(34px, 4vw, 64px);
+  padding: 48px clamp(38px, 4.5vw, 72px);
   background: var(--panel);
   border-right: 1px solid var(--line);
 }
@@ -122,7 +122,7 @@ p {
 }
 
 .profile-photo {
-  width: min(100%, 250px);
+  width: min(100%, 300px);
   aspect-ratio: 1;
   overflow: hidden;
   background: var(--panel-strong);
@@ -138,16 +138,16 @@ p {
 
 .social-links {
   display: grid;
-  grid-template-columns: repeat(4, 44px);
-  gap: 10px;
-  margin-top: 30px;
+  grid-template-columns: repeat(4, 50px);
+  gap: 12px;
+  margin-top: 34px;
 }
 
 .social-link {
   position: relative;
   display: grid;
-  width: 44px;
-  height: 44px;
+  width: 50px;
+  height: 50px;
   place-items: center;
   background: var(--control);
   border: 1px solid var(--line);
@@ -158,8 +158,8 @@ p {
 }
 
 .social-link img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   filter: var(--icon-filter);
 }
 
@@ -207,11 +207,11 @@ p {
   min-height: 100vh;
   min-height: 100svh;
   align-items: center;
-  padding: 72px clamp(64px, 9vw, 150px);
+  padding: 72px clamp(56px, 7vw, 120px);
 }
 
 .intro {
-  width: min(100%, 780px);
+  width: min(100%, 840px);
 }
 
 .kicker {
@@ -234,20 +234,20 @@ p {
 }
 
 .intro h1 {
-  margin-bottom: 30px;
-  font-size: 78px;
+  margin-bottom: 32px;
+  font-size: 86px;
   font-weight: 400;
 }
 
 .intro p {
-  max-width: 720px;
-  margin-bottom: 22px;
-  font-size: 19px;
+  max-width: 780px;
+  margin-bottom: 24px;
+  font-size: 21px;
 }
 
 .intro .intro-copy {
   color: var(--ink);
-  font-size: 23px;
+  font-size: 25px;
   line-height: 1.55;
 }
 
@@ -419,29 +419,35 @@ html[data-theme="dark"] .moon-icon {
 
 @media (max-width: 1000px) {
   .home {
-    grid-template-columns: 270px minmax(0, 1fr);
+    grid-template-columns: 300px minmax(0, 1fr);
   }
 
   .profile {
-    padding-right: 34px;
-    padding-left: 34px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .social-links {
-    grid-template-columns: repeat(3, 44px);
+    grid-template-columns: repeat(4, 46px);
+    gap: 10px;
+  }
+
+  .social-link {
+    width: 46px;
+    height: 46px;
   }
 
   .main-column {
-    padding-right: 56px;
-    padding-left: 56px;
+    padding-right: 48px;
+    padding-left: 48px;
   }
 
   .intro h1 {
-    font-size: 62px;
+    font-size: 66px;
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 840px) {
   .home {
     display: block;
   }
@@ -451,8 +457,8 @@ html[data-theme="dark"] .moon-icon {
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
-    gap: 20px;
-    padding: 20px 76px 20px 24px;
+    gap: 24px;
+    padding: 22px 80px 22px 28px;
     border-right: 0;
     border-bottom: 1px solid var(--line);
   }
@@ -463,19 +469,19 @@ html[data-theme="dark"] .moon-icon {
   }
 
   .profile-photo {
-    flex: 0 0 104px;
-    width: 104px;
+    flex: 0 0 136px;
+    width: 136px;
   }
 
   .social-links {
-    grid-template-columns: repeat(4, 40px);
-    gap: 8px;
+    grid-template-columns: repeat(4, 46px);
+    gap: 10px;
     margin-top: 0;
   }
 
   .social-link {
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
   }
 
   .social-link::after {
@@ -483,21 +489,22 @@ html[data-theme="dark"] .moon-icon {
   }
 
   .main-column {
-    min-height: calc(100svh - 145px);
-    padding: 64px 24px 72px;
+    min-height: calc(100svh - 181px);
+    align-items: flex-start;
+    padding: 96px 24px 72px;
   }
 
   .intro h1 {
-    margin-bottom: 24px;
-    font-size: 48px;
+    margin-bottom: 26px;
+    font-size: 52px;
   }
 
   .intro p {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .intro .intro-copy {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .theme-toggle {
@@ -528,20 +535,22 @@ html[data-theme="dark"] .moon-icon {
 @media (max-width: 460px) {
   .profile {
     gap: 16px;
+    padding: 20px 72px 20px 20px;
   }
 
   .profile-photo {
-    flex-basis: 96px;
-    width: 96px;
+    flex-basis: 108px;
+    width: 108px;
   }
 
   .social-links {
-    grid-template-columns: repeat(3, 38px);
+    grid-template-columns: repeat(3, 42px);
+    gap: 8px;
   }
 
   .social-link {
-    width: 38px;
-    height: 38px;
+    width: 42px;
+    height: 42px;
   }
 
   .main-column {
@@ -550,7 +559,7 @@ html[data-theme="dark"] .moon-icon {
   }
 
   .intro h1 {
-    font-size: 42px;
+    font-size: 44px;
   }
 }
 

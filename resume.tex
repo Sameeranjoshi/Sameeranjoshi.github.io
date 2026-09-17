@@ -1,6 +1,6 @@
-\documentclass[10pt]{article}
+\documentclass[10.5pt]{article}
 
-\usepackage[top=0.4in, bottom=0.4in, left=0.65in, right=0.65in]{geometry}
+\usepackage[top=0.45in, bottom=0.45in, left=0.75in, right=0.75in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathpazo}
 \usepackage{microtype}
@@ -23,7 +23,7 @@
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
-\linespread{0.96}\selectfont
+\linespread{0.97}\selectfont
 
 \titleformat{\section}
   {\normalfont\scshape\large}
@@ -38,30 +38,25 @@
   \textbf{#1} \hfill #3\\
   \textit{#2}\\[1pt]
   #4
-  \vspace{1pt}
+  \vspace{2pt}
 }
 
 \newcommand{\subhead}[1]{{\bfseries\itshape #1}\\[2pt]}
+\newcommand{\me}[1]{\textbf{#1}}
 
 \begin{document}
 
 \begin{center}
-  {\LARGE \textbf{Sameeran Joshi}}\\[3pt]
+  {\LARGE \textbf{Sameeran Joshi}}\\[4pt]
   Salt Lake City, UT
   \,\textbullet\,
-  \href{mailto:sameeran@cs.utah.edu}{sameeran@cs.utah.edu}
-  \,\textbullet\,
-  \href{https://sameeranjoshi.github.io}{sameeranjoshi.github.io}
-  \,\textbullet\,
-  \href{https://github.com/Sameeranjoshi}{github.com/Sameeranjoshi}
-  \,\textbullet\,
-  \href{https://orcid.org/0009-0003-0345-4235}{orcid.org/0009-0003-0345-4235}
+  sameeran[at]cs[dot]utah[dot]edu
 \end{center}
 
 \section*{Education}
 
 \entry{Ph.D. in Computer Science}{University of Utah, Salt Lake City, UT}{Aug 2022 -- Present}{%
-Advisor: Dr. Mary Hall. Graduate Research Assistant, Compilers and Tools for Outstanding Performance (CTOP) Group.
+Advisor: Dr. Mary Hall. Graduate Research Assistant, CTOP Group.
 Research focus: compilers and programming models for spatial dataflow hardware, hardware--software co-design, and high-performance computing.}
 
 \entry{B.E. in Computer Science}{P.V.G.'s College of Engineering and Technology (COET), Pune, India}{May 2015 -- Apr 2019}{}
@@ -74,44 +69,40 @@ Programming languages, compilers, and high-performance computing, with a focus o
 
 \subhead{Journal Articles}
 \begin{itemize}
-  \item M. Hall, C. Oancea, A. C. Elster, A. Rasch, S. Joshi, A. M. Tavakkoli, R. Schulze. ``Scheduling Language Chronology: Past, Present, and Future.'' \textit{ACM Transactions on Architecture and Code Optimization (TACO)}, 2025.
+  \item M. Hall, C. Oancea, A. C. Elster, A. Rasch, \me{S. Joshi}, A. M. Tavakkoli, R. Schulze. ``Scheduling Language Chronology: Past, Present, and Future.'' \textit{ACM Transactions on Architecture and Code Optimization (TACO)}, 2025.
 \end{itemize}
 
-\vspace{1pt}
+\vspace{2pt}
 \subhead{Conference and Workshop Papers}
 \begin{itemize}
-  \item A. M. Tavakkoli$^{*}$, S. Joshi$^{*}$, S. Singh, Y. Xu, P. Sadayappan, M. Hall. ``PEAK: Generating High-Performance Schedules in MLIR.'' \textit{36th International Workshop on Languages and Compilers for Parallel Computing (LCPC)}, Oct. 2023. ($^{*}$equal contribution)
-  \item M. Hall, G. Gopalakrishnan, E. Eide, J. Cohoon, J. M. Phillips, M. Zhang, S. Y. Elhabian, A. Bhaskara, H. Dam, A. Yadrov, T. Kataria, A. M. Tavakkoli, S. Joshi, M. S. T. Karanam. ``An NSF REU Site Based on Trust and Reproducibility of Intelligent Computation: Experience Report.'' \textit{EduHPC Workshop}, held at SC23.
-\end{itemize}
-
-\vspace{1pt}
-\subhead{Manuscripts in Preparation}
-\begin{itemize}
-  \item ``Mapping a Sparse Linear Solver onto the Cerebras Wafer-Scale Engine.'' Mapped a multigrid scientific application onto the Cerebras Wafer-Scale Engine's kernel language, addressing problem layout across a million cores, inter-node dataflow, and memory mapping. Preliminary results show a 10--100$\times$ speedup over an NVIDIA GPU solver.
+  \item \me{S. Joshi}, O. Antepara, S. Williams, H. Johansen, M. Hall. ``GLOW: Accelerating Geometric Multigrid Levels on Cerebras Wafer-Scale Engine.'' \textit{Proceedings of the International Conference for High Performance Computing, Networking, Storage, and Analysis (SC26)}, to appear.
+  \item A. M. Tavakkoli$^{*}$, \me{S. Joshi}$^{*}$, S. Singh, Y. Xu, P. Sadayappan, M. Hall. ``PEAK: Generating High-Performance Schedules in MLIR.'' \textit{36th International Workshop on Languages and Compilers for Parallel Computing (LCPC)}, Oct. 2023. ($^{*}$equal contribution)
+  \item M. Hall, G. Gopalakrishnan, E. Eide, J. Cohoon, J. M. Phillips, M. Zhang, S. Y. Elhabian, A. Bhaskara, H. Dam, A. Yadrov, T. Kataria, A. M. Tavakkoli, \me{Sameeran Joshi}, M. S. T. Karanam. ``An NSF REU Site Based on Trust and Reproducibility of Intelligent Computation: Experience Report.'' \textit{EduHPC Workshop}, held at SC23.
 \end{itemize}
 
 \section*{Research and Industry Experience}
 
+\entry{Compiler Intern, CSL Compiler Team}{Cerebras Systems}{May 2026 -- Aug 2026}{%
+Manager: Salem Derisavi. Worked on the CSL compiler team; built a non-actor-based programming model in MLIR to automatically generate CSL code.}
+
 \entry{Compiler Intern, AIE Accelerator (NPU)}{AMD, Campbell, CA}{May 2025 -- Aug 2025}{%
-Manager: Mahesh Ravishankar. Mentor: James Newling.
-Worked on a VLIW, tiled-IR compiler built on IREE and LLVM for the NPU. Supported and vectorized truncation and reduction kernels used in deep learning, achieving on-par or faster speedups across multidimensional matrix shapes.}
+Manager: Mahesh Ravishankar. Worked on vectorization support in the AMD NPU and IREE compiler stack.}
 
 \entry{Research Intern, Technical PhD}{Argonne National Laboratory, Lemont, IL}{May 2024 -- Aug 2024}{%
-Supervisor: Dr. Siddhisanket Raskar.
-Studied code-generation challenges and opportunities for mapping HPC applications onto AI testbeds, including Cerebras, SambaNova, Groq, and GraphCore. Added GraphCore backend support to DaCe (Data-Centric Parallel Framework).}
+Supervisor: Dr. Siddhisanket Raskar. Worked on ALCF AI testbed hardware and the GraphCore backend for DaCe.}
 
 \entry{CPU Compiler Engineer, Full Time}{AMD, Bangalore, India}{Jun 2019 -- Jun 2022}{%
-Contributed to compiler verification (unit testing, automated bug-finding tools), performance analysis tooling (built an internal tool on the LLVM BOLT project), and front-end support for Flang (Fortran, OpenMP).}
+Worked on Flang, performance analysis tooling (internal conference paper), and verification of LLVM.}
 
 \entry{Undergraduate Researcher, GCC Project}{Remote}{Jun 2018 -- Apr 2019}{%
-Mentor: Andi Kleen (Intel); guidance from Siddhesh Poyarekar and Prathamesh Kulkarni.
-Extended Csmith with $\sim$15 GNU C language extensions to fuzz the GCC compiler; found 12 critical bugs (11 fixed upstream) and raised Csmith's GCC fuzzing coverage by 5\% (line), 7\% (function), 4\% (branch).}
+Extended Csmith with GNU C language extensions and found 12 critical bugs in the GCC upstream compiler.}
 
 \section*{Honors and Awards}
 
 \begin{itemize}
   \item Student Travel Grant, Workshop on Sparse Tensor Computations
-  \item Tuition Fee Waiver Scheme (TFWS) Scholarship --- 90\% of tuition waived, undergraduate studies
+  \item Student Travel Grant, SC25 and SC26 (Volunteer)
+  \item Tuition Fee Waiver Scheme (TFWS) Scholarship, undergraduate studies
 \end{itemize}
 
 \section*{Professional Service}
@@ -119,14 +110,7 @@ Extended Csmith with $\sim$15 GNU C language extensions to fuzz the GCC compiler
 \begin{itemize}
   \item Artifact Evaluation Committee: CGO 2025, ASPLOS 2025
   \item Program Committee Member: LLVM Developers' Meeting 2021
-  \item Volunteer: SC25, CppCon 2021, CppOnSea 2021
-\end{itemize}
-
-\section*{Talks and Outreach}
-
-\begin{itemize}
-  \item ``Extending Csmith with GCC C-Language Extensions.'' Pune Kernel Meetup, Pune, India.
-  \item Guest talk on open-source contribution opportunities for undergraduates. P.V.G.'s COET, Pune, India.
+  \item Volunteer: CppCon 2021, CppOnSea 2021
 \end{itemize}
 
 \end{document}

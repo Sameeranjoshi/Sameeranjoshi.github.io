@@ -1,6 +1,6 @@
-\documentclass[10.5pt]{article}
+\documentclass[10pt]{article}
 
-\usepackage[top=0.5in, bottom=0.5in, left=0.8in, right=0.8in]{geometry}
+\usepackage[top=0.55in, bottom=0.55in, left=0.8in, right=0.8in]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{mathpazo}
 \usepackage{microtype}
@@ -9,7 +9,7 @@
 \usepackage{xcolor}
 \usepackage{hyperref}
 
-% A single muted accent, echoing the terracotta rule used on sameeranjoshi.github.io
+% A single muted accent, echoing the terracotta rule used on sameeranjoshi.github.io.
 \definecolor{rule}{HTML}{8A3324}
 
 \hypersetup{
@@ -23,83 +23,78 @@
 
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
-\linespread{0.92}\selectfont
+\linespread{0.96}\selectfont
 
 \titleformat{\section}
   {\normalfont\scshape\large}
   {}{0em}{}
   [{\color{rule}\titlerule[0.8pt]}]
-\titlespacing{\section}{0pt}{5pt}{8pt}
+\titlespacing{\section}{0pt}{6pt}{6pt}
 
-% One consistent rhythm for every bulleted list in the document.
-\setlist[itemize]{leftmargin=2.5em, itemsep=2pt, topsep=0pt, parsep=0pt}
+\setlist[itemize]{
+  leftmargin=1.4em,
+  labelsep=0.45em,
+  itemsep=1pt,
+  topsep=1pt,
+  partopsep=0pt,
+  parsep=0pt
+}
 
-% #1 title/role  #2 org, location (italic)  #3 dates  #4 body
-% One consistent gap after every entry, whether Education or Experience.
-\newcommand{\entry}[4]{%
-  \textbf{#1} \hfill #3\\
-  \textit{#2}\\[2pt]
-  #4
-  \vspace{3.5pt}
+% #1 degree  #2 institution/location  #3 dates  #4 optional detail
+\newcommand{\eduentry}[4]{%
+  \textbf{#1}\hfill #3\par
+  \textit{#2}\par
+  #4\par
+  \addvspace{4pt}
+}
+
+% #1 role  #2 organization/location  #3 dates  #4 manager/supervisor  #5 achievement
+\newcommand{\expentry}[5]{%
+  \textbf{#1}\hfill #3\par
+  \textit{#2}\hfill {\small #4}\par
+  \begin{itemize}
+    \item #5
+  \end{itemize}
+  \addvspace{3pt}
 }
 
 \newcommand{\me}[1]{\textbf{#1}}
 
 \begin{document}
+% article supports only 10pt, 11pt, and 12pt class options; set the intended
+% 10.5pt body type explicitly.
+\fontsize{10.5pt}{12.5pt}\selectfont
 
 \begin{center}
   {\LARGE \textbf{Sameeran Joshi}}\\[4pt]
   Salt Lake City, UT
   \,\textbullet\,
-  sameeran@cs.utah.edu
+  \href{mailto:sameeran@cs.utah.edu}{sameeran@cs.utah.edu}
 \end{center}
 
 \section*{Education}
 
-\entry{Ph.D. in Computer Science}{University of Utah, Salt Lake City, UT}{Aug 2022 -- Present}{%
-Advisor: Dr. Mary Hall. Graduate Research Assistant, CTOP Group.
-Research focus: compilers and programming models for spatial dataflow hardware, hardware--software co-design, and high-performance computing.}
+\eduentry{Ph.D. in Computer Science}{University of Utah, Salt Lake City, UT}{Aug 2022 -- Present}{%
+Advisor: Dr. Mary Hall. Graduate Research Assistant, CTOP Group. Research focus: compilers and programming models for spatial dataflow hardware, hardware--software co-design, and high-performance computing.}
 
-\vspace{5pt}
+\eduentry{B.E. in Computer Science}{P.V.G.'s College of Engineering and Technology (COET), Pune, India}{May 2015 -- Apr 2019}{}
 
-\entry{B.E. in Computer Science}{P.V.G.'s College of Engineering and Technology (COET), Pune, India}{May 2015 -- Apr 2019}{}
 \section*{Industry Experience}
-\textbf{Compiler Intern, CSL Compiler Team} \hfill May 2026 -- Aug 2026\\
-\textit{Cerebras Systems}
-Manager: Salem Derisavi.\\[-5pt]
-\begin{itemize}
-  \item Worked on the CSL compiler team; built a non-actor-based programming model in MLIR to automatically generate CSL code.
-\end{itemize}
-\vspace{3.5pt}
 
-\textbf{Compiler Intern, AIE Accelerator (NPU)} \hfill May 2025 -- Aug 2025\\
-\textit{AMD, Campbell, CA}
-Manager: Mahesh Ravishankar.\\[-5pt]
-\begin{itemize}
-  \item Worked on vectorization support in the AMD NPU and IREE compiler stack.
-\end{itemize}
-\vspace{3.5pt}
+\expentry{Compiler Intern, CSL Compiler Team}{Cerebras Systems}{May 2026 -- Aug 2026}{Manager: Salem Derisavi.}{%
+Worked on the CSL compiler team; built a non-actor-based programming model in MLIR to automatically generate CSL code.}
 
-\textbf{Research Intern, Technical PhD} \hfill May 2024 -- Aug 2024\\
-\textit{Argonne National Laboratory, Lemont, IL}
-Supervisor: Dr. Siddhisanket Raskar.\\[-5pt]
-\begin{itemize}
-  \item Worked on ALCF AI testbed hardware and the GraphCore backend for DaCe.
-\end{itemize}
-\vspace{3.5pt}
+\expentry{Compiler Intern, AIE Accelerator (NPU)}{AMD, Campbell, CA}{May 2025 -- Aug 2025}{Manager: Mahesh Ravishankar.}{%
+Worked on vectorization support in the AMD NPU and IREE compiler stack.}
 
-\textbf{CPU Compiler Engineer, Full Time} \hfill Jun 2019 -- Jun 2022\\
-\textit{AMD, Bangalore, India}
-\begin{itemize}
-  \item Worked on Flang, performance analysis tooling (internal conference paper), and verification of LLVM.
-\end{itemize}
-\vspace{3.5pt}
+\expentry{Research Intern, Technical PhD}{Argonne National Laboratory, Lemont, IL}{May 2024 -- Aug 2024}{Supervisor: Dr. Siddhisanket Raskar.}{%
+Worked on ALCF AI testbed hardware and the GraphCore backend for DaCe.}
 
-\textbf{Undergraduate Researcher, GCC Project} \hfill Jun 2018 -- Apr 2019\\
-\textit{Remote}
-\begin{itemize}
-  \item Extended Csmith with GNU C language extensions and found 12 critical bugs in the GCC upstream compiler.
-\end{itemize}
+\expentry{CPU Compiler Engineer, Full Time}{AMD, Bangalore, India}{Jun 2019 -- Jun 2022}{}{%
+Worked on Flang, performance analysis tooling (internal conference paper), and verification of LLVM.}
+
+\expentry{Undergraduate Researcher, GCC Project}{Remote}{Jun 2018 -- Apr 2019}{Mentor: Andi Kleen.}{%
+Extended Csmith with GNU C language extensions and found 12 critical bugs in the GCC upstream compiler.}
 
 \section*{Publications}
 
